@@ -3,6 +3,7 @@
     backdrop-filter: blur(50px);
     position: fixed;
     z-index: 9999;
+    width: 100%;
 }
 
 .nav-content{
