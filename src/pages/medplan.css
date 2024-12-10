@@ -738,7 +738,6 @@
 
 @media screen and (max-width: 768px) {
     .medplan-container-info{
-        background-color: orange;
     }    
 
     .medplan-container-info > h1{
@@ -758,7 +757,6 @@
 
     .med-props-text{
         width: 80%;
-        background-color: orange;
     }
 
     .med-rem-ctn > img{
