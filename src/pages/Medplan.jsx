@@ -19,10 +19,39 @@ import recordguy from "../components/images/recordguy.webp";
 import medpatientgrp from "../components/images/medpatientgrp.png";
 import padlock from "../components/images/padlock.webp";
 import telemed from "../components/images/telemed.webp";
-import statistics from "../components/images/statistics.png"
+import statistics from "../components/images/statistics.png";
+import iphonedownload from "../components/images/iphonedownload.webp";
+import appstore from "../components/images/appstore.png";
+import playstore from "../components/images/googleplay.png";
+import story1 from "../components/images/story1.png";
+import story2 from "../components/images/story2.webp";
+import story3 from "../components/images/story3.webp";
+import medvr from "../components/images/medvr.webp";
 import Footer from '../components/footer/Footer';
 
 const Medplan = () => {
+    const stories = [
+        {
+            para1: "I love how MedPlan combines reminders and education. It’s not just about taking your medicine; it’s about understanding why it’s important.",
+            para2: "The Yoruba articles helped my mum learn more about her condition too. Thank you for making this app!",
+            name: "Funke, Ibadan",
+            image: story1
+        },
+        {
+            para1: "I love how MedPlan combines reminders and education. It’s not just about taking your medicine; it’s about understanding why it’s important.",
+            para2: "The Yoruba articles helped my mum learn more about her condition too. Thank you for making this app!",
+            name: "Funke, Ibadan",
+            image: story2
+        },
+        {
+            para1: "With MedPlan, I finally feel in control of my health. I can ask the pharmacist questions anytime, and they always give clear answers. ",
+            para2: "The articles in Hausa have helped my family understand our health better too. This app is a game-changer!",
+            name: "Abdullahi, Kano",
+            image: story3
+        },
+
+    ]
+
     return (
         <div className='medplan-main'>
             <div className='medplan-background'>
@@ -105,6 +134,7 @@ const Medplan = () => {
                         <div className='med-rem-props'>
                             <div className='med-rem-ctn'>
                                 <div className='med-props-text'>
+                                <h6>Stay on track</h6>
                                     <h1>Seamlessly manage your medication journey</h1>
                                 </div>
                                 <img
@@ -306,6 +336,92 @@ const Medplan = () => {
                             />
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className='medplan-download'>
+                <div className='med-dld-ctn'>
+                    <img
+                        src={iphonedownload}
+                        width="100%"
+                        height="100%"
+                        alt='icon'
+                    />
+                </div>
+                <div className='med-dld-ctn2'>
+                    <a href=''>
+                        <button>
+                            Watch Demo Video
+                        </button>
+                    </a>
+                    <h2>Get the MedPlan App</h2>
+                    <p>Experience Holistic Healthcare <br /> Management.
+                    </p>
+                    <div className='download-btns'>
+                        <a href=''>
+                            <img
+                                src={playstore}
+                                width="100%"
+                                height="100%"
+                                alt='icon'
+                            />
+                        </a>
+                        <a href=''>
+                            <img
+                                src={appstore}
+                                width="100%"
+                                height="100%"
+                                alt='icon'
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className='medplan-stories'>
+                <h2>Success Stories</h2>
+                <h1>Empowering Smarter Health Decisions Every Day</h1>
+                <p>Everyday our solution are helping thousands of individuals take more informed decisions about their health</p>
+                <div className='med-success-stories'>
+                    {stories.map((story, index) => (
+                        <div className='med-stories-ctn' key={index}>
+                            <div className='stories-img'>
+                                <img
+                                    src={story.image}
+                                    width="100%"
+                                    height="100%"
+                                    alt='next'
+                                />
+                            </div>
+                            <div className='stories-text'>
+                                <p>{story.para1}</p>
+                                <p>{story.para2} </p>
+                                <h2>{story.name}</h2>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className='medplan-innovation'>
+                <div className='med-inv-img'>
+                    <img
+                        src={medvr}
+                        width="100%"
+                        height="100%"
+                        alt='icon'
+                    />
+                </div>
+                <div className='med-inv-text'>
+                    <h2>Evidence-based Digital Health solution</h2>
+                    <h1>Driving innovation & advancing Health outcomes through Research</h1>
+                    <p>
+                        In a randomized control trial with 2 months follow-up period, 200 patients
+                        receiving drug therapy for glaucoma were  randomized into either into a control
+                        or study group. The study group comprised participants who made use of a medication
+                        reminder mobile application, medPlan®, while the control group consisted of those patients
+                        who did not use the application. Adherence to medication was measured............
+                    </p>
+                    <a href=''>
+                        <button>Read Full Paper</button>
+                    </a>
                 </div>
             </div>
             <Footer />
