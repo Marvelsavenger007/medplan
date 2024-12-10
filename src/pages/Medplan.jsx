@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import "./medplan.css"
-import medbground1 from "../components/images/medbground1.png";
-import medbground2 from "../components/images/medbground2.png";
-import medbground3 from "../components/images/medbground3.png";
-import medbground4 from "../components/images/medbground4.png";
-import medbground5 from "../components/images/medbground5.png";
-import medbground6 from "../components/images/medbground6.png";
-import medplanicon from "../components/images/medplanicon.png";
+import medbground from "../components/images/medbground.webp";
 import medoldpeople from "../components/images/medoldpeople.webp";
 import medcycling from "../components/images/medcycling.png";
 import healthdoc from "../components/images/healthdoc.webp";
@@ -28,6 +22,7 @@ import story2 from "../components/images/story2.webp";
 import story3 from "../components/images/story3.webp";
 import medvr from "../components/images/medvr.webp";
 import Footer from '../components/footer/Footer';
+import Navbar from '../components/navbar/Navbar';
 
 const Medplan = () => {
     const stories = [
@@ -54,74 +49,14 @@ const Medplan = () => {
 
     return (
         <div className='medplan-main'>
+            <Navbar />
             <div className='medplan-background'>
-                <div className='medplan-background1'>
-                    <div className='medbackground1-img1'>
-                        <img
-                            src={medbground1}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                </div>
-                <div className='medplan-background2'>
-                    <div className='medbackground1-img2'>
-                        <img
-                            src={medbground2}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                    <div className='medbackground1-img3'>
-                        <img
-                            src={medbground3}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                </div>
-                <div className='medplan-background3'>
-                    <div className='medbackground1-img4'>
-                        <img
-                            src={medbground4}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                    <div className='medbackground1-img5'>
-                        <img
-                            src={medbground5}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                </div>
-                <div className='medplan-background4'>
-                    <div className='medbackground1-img6'>
-                        <img
-                            src={medbground6}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                </div>
-                <div className='medplan-title'>
-                    <div className='medplan-logo'>
-                        <img
-                            src={medplanicon}
-                            width="100%"
-                            height="100%"
-                            alt='icon'
-                        />
-                    </div>
-                    <h1>MedPlan</h1>
-                </div>
+                <img
+                    src={medbground}
+                    width="100%"
+                    height="100%"
+                    alt='icon'
+                />
             </div>
             <div className='medplan-details'>
                 <h1>Empowering Smarter Health Decisions Every Day</h1>

@@ -56,3 +56,7 @@ a{
   text-decoration: none;
   cursor: pointer;
 }
+
+img{
+  object-fit: cover;
+}
