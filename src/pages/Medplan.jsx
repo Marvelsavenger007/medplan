@@ -20,6 +20,7 @@ import medpatientgrp from "../components/images/medpatientgrp.png";
 import padlock from "../components/images/padlock.webp";
 import telemed from "../components/images/telemed.webp";
 import statistics from "../components/images/statistics.png"
+import Footer from '../components/footer/Footer';
 
 const Medplan = () => {
     return (
@@ -307,6 +308,7 @@ const Medplan = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
