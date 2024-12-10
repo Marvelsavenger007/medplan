@@ -14,8 +14,12 @@ import iphonehlth from "../components/images/iphonehlth.webp";
 import iphonelang from "../components/images/iphonelang.webp";
 import iphonetrk from "../components/images/iphonetrk.png";
 import medtrad from "../components/images/medtrad.webp";
+import iphonerecord from "../components/images/iphonerecord.webp";
+import recordguy from "../components/images/recordguy.webp";
 import medpatientgrp from "../components/images/medpatientgrp.png";
-
+import padlock from "../components/images/padlock.webp";
+import telemed from "../components/images/telemed.webp";
+import statistics from "../components/images/statistics.png"
 
 const Medplan = () => {
     return (
@@ -219,11 +223,82 @@ const Medplan = () => {
                                 alternative to keep you informed. Enjoy a collection of video tips designed
                                 to captivate your attention and empower your wellness journey.
                             </p>
-                            <h2>Get health advice at your finger tips</h2>
+                            <h3>Get health advice at your finger tips</h3>
                         </div>
                         <div className='med-health-img'>
                             <img
                                 src={iphonelang}
+                                width="100%"
+                                height="100%"
+                                alt='icon'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className='medplan-container-info3'>
+                    <h1>Health Records</h1>
+                    <div className='med-props-container'>
+                        <div className='med-record-ctn'>
+                            <img
+                                src={iphonerecord}
+                                width="100%"
+                                height="100%"
+                                alt='icon'
+                            />
+                        </div>
+                        <div className='med-record-ctn1'>
+                            <h2>Know your Numbers</h2>
+                            <p>Access your health record anywhere anytime.</p>
+                            <img
+                                src={recordguy}
+                                width="100%"
+                                height="100%"
+                                alt='icon'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className='med-health-container'>
+                    <div className='med-rec2-ctn'>
+                        <h2>Take charge of your health</h2>
+                        <p>Keep track of your health history and make informed
+                            decision on your well being
+                        </p>
+                        <img
+                            src={statistics}
+                            width="100%"
+                            height="100%"
+                            alt='icon'
+                        />
+                    </div>
+                    <div className='med-rec2-ctn2'>
+                        <h2>Your health is yours.</h2>
+                        <img
+                            src={padlock}
+                            width="100%"
+                            height="100%"
+                            alt='icon'
+                        />
+                        <p>No one else but you <br />
+                            can access you medical <br />
+                            records.
+                        </p>
+                    </div>
+                </div>
+                <div className='medplan-container-info4'>
+                    <h1>Telepharmacy</h1>
+                    <div className='med-props-container'>
+                        <div className='med-tele-ctn'>
+                            <h1>24/7 Free Access to Pharmacists</h1>
+                            <p>Enjoy free and easy access to expert medication advice
+                                from pharmacists—your health questions answered, just a
+                                message away!
+                            </p>
+                            <h2>Healthcare at Your Fingertips</h2>
+                        </div>
+                        <div className='med-tele-ctn2'>
+                            <img
+                                src={telemed}
                                 width="100%"
                                 height="100%"
                                 alt='icon'

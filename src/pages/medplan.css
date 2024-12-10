@@ -351,3 +351,153 @@
     width: 42.448vw;
     height: auto;
 }
+
+.medplan-container-info3{
+    margin-top: 16vh;
+}
+
+.medplan-container-info3 > h1{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70.2px;
+    text-align: left;
+    color: rgba(5, 100, 193, 1);
+}
+
+.med-props-container{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem 4rem 0 4rem;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.med-record-ctn > img{
+    width: 35.417vw;
+}
+
+.med-record-ctn1 > img{
+    width: 35.521vw;
+    height: auto;
+    margin-bottom: -1vh;
+    margin-left: 10vw;
+}
+
+.med-record-ctn1 > h2{
+    color: rgba(5, 100, 193, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: right;    
+}
+
+.med-record-ctn1 > p{
+    color: rgba(18, 18, 18, 1);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.4px;
+    text-align: right; 
+    width: 45.896vw;   
+}
+
+.med-rec2-ctn{
+    width: 45%;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    padding: 2rem 1rem 0 1.5rem;
+}
+
+.med-rec2-ctn > img{
+    width: 28.646vw;
+    height: auto;
+    padding: 15% 0;
+    margin: 0 15%;
+}
+
+.med-rec2-ctn > h2{
+    color: rgba(8, 83, 161, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;    
+}
+
+.med-rec2-ctn > p{
+    color: rgba(18, 18, 18, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;    
+}
+
+.med-rec2-ctn2{
+    width: 45%;
+    border-radius: 24px;
+    background: linear-gradient(155.9deg, #007CEE 0.3%, #121832 100.18%);
+    overflow: hidden;
+    padding: 2rem 1rem 0 3rem;
+}
+
+.med-rec2-ctn2 > img{
+    width: 8.854vw;
+    height: auto;
+    margin-top: 15%;
+}
+
+.med-rec2-ctn2 > p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 67.6px;
+    text-align: left;    
+    margin-top: 5%;
+}
+
+.med-rec2-ctn2 > h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.medplan-container-info4{
+    margin-top: 7vh;
+}
+
+.medplan-container-info4 > h1{
+    color: rgba(0, 212, 54, 1);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    text-align: left;    
+}
+
+.med-tele-ctn2 > img{
+    width: 38.021vw;
+    height: auto;
+}
+
+.med-tele-ctn{
+    width: 33.438vw;
+    padding-top: 7%;
+}
+
+.med-tele-ctn > h1{
+    color: rgba(18, 18, 18, 1);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.4px;
+    text-align: left;    
+}
+
+.med-tele-ctn > h2{
+    color: rgba(0, 212, 54, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;    
+}
