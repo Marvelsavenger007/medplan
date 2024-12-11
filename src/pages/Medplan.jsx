@@ -60,7 +60,10 @@ const Medplan = () => {
             </div>
             <div className='medplan-details'>
                 <h1>Empowering Smarter Health Decisions Every Day</h1>
-                <p>MedPlan app combines education, adherence, and expert support in one app to promote long-term health & wellness.</p>
+                <p>MedPlan app combines education and expert support in one app fostering medication
+                    adherence and health literacy. Our aim is to empower individuals to take charge of
+                    their health and live healthier lives by making informed decisions.
+                </p>
             </div>
             <div className='medplan-med-containers'>
                 <div className='medplan-container-info'>
@@ -69,7 +72,7 @@ const Medplan = () => {
                         <div className='med-rem-props'>
                             <div className='med-rem-ctn'>
                                 <div className='med-props-text'>
-                                <h6>Stay on track</h6>
+                                    <h6>Stay on track</h6>
                                     <h1>Seamlessly manage your medication journey</h1>
                                 </div>
                                 <img
@@ -94,7 +97,7 @@ const Medplan = () => {
                     <h1>Health Diary</h1>
                     <div className='medplan-props-container'>
                         <div className='med-health-props'>
-                            <div className='med-props-text'>
+                            <div className='med-props-text1'>
                                 <h1>Track your health journey with ease.</h1>
                                 <p>Effortlessly document your symptoms, track side effects, and monitor
                                     your health journey all in one place. Our health diary empowers you to stay

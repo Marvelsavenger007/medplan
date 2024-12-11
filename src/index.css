@@ -14,7 +14,7 @@
 @font-face {
   font-family: "IBMPlex Sans";
   src: url("./fonts/IBMPlexSans-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
