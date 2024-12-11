@@ -154,6 +154,7 @@ const Medplan = () => {
                     <h1>Multilang Health Insights</h1>
                     <div className='med-lang-props'>
                         <div className='med-lang-ctn'>
+                            <p>Connect and find support</p>
                             <img
                                 src={medpatientgrp}
                                 width="100%"
@@ -188,6 +189,7 @@ const Medplan = () => {
                 <div className='medplan-props-container'>
                     <div className='med-health-props'>
                         <div className='med-props-text'>
+                            <h4>Get health advice at your finger tips</h4>
                             <h1>A more interesting way to get health tips</h1>
                             <p>
                                 Is reading starting to feel like a snooze fest? We've got an exciting
@@ -251,15 +253,16 @@ const Medplan = () => {
                             alt='icon'
                         />
                         <p>No one else but you <br />
-                            can access you medical <br />
+                            can access your medical <br />
                             records.
                         </p>
                     </div>
                 </div>
                 <div className='medplan-container-info4'>
                     <h1>Telepharmacy</h1>
-                    <div className='med-props-container'>
+                    <div className='med-props-container1'>
                         <div className='med-tele-ctn'>
+                            <h3>Healthcare at Your Fingertips</h3>
                             <h1>24/7 Free Access to Pharmacists</h1>
                             <p>Enjoy free and easy access to expert medication advice
                                 from pharmacists—your health questions answered, just a
