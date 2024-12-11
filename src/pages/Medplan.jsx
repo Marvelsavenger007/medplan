@@ -89,6 +89,7 @@ const Medplan = () => {
                                     height="100%"
                                     alt='icon'
                                 />
+                                <h5>Stay on track</h5>
                             </div>
                         </div>
                     </div>
@@ -98,6 +99,7 @@ const Medplan = () => {
                     <div className='medplan-props-container'>
                         <div className='med-health-props'>
                             <div className='med-props-text1'>
+                                <h3>Take Charge of Your Health</h3>
                                 <h1>Track your health journey with ease.</h1>
                                 <p>Effortlessly document your symptoms, track side effects, and monitor
                                     your health journey all in one place. Our health diary empowers you to stay
