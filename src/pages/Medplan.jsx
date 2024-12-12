@@ -291,6 +291,14 @@ const Medplan = () => {
                     />
                 </div>
                 <div className='med-dld-ctn2'>
+                    <div className='med-dld-ctn3'>
+                        <a href=''>
+                            <button>
+                                Watch Demo Video
+                            </button>
+                        </a>
+                        <h2>Get the MedPlan App</h2>
+                    </div>
                     <a href=''>
                         <button>
                             Watch Demo Video
@@ -300,7 +308,7 @@ const Medplan = () => {
                     <p>Experience Holistic Healthcare <br /> Management.
                     </p>
                     <div className='download-btns'>
-                        <a href=''>
+                        <a href='https://play.google.com/store/apps/details?id=com.medplan.solutions&pcampaignid=web_share'>
                             <img
                                 src={playstore}
                                 width="100%"
