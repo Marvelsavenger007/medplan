@@ -8,13 +8,19 @@
 
 .medplan-background{
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
-.medplan-background > img{
+.bground-desktop> img{
     width: 130vw;
     margin-left: -14vw;
+    display: block;
 }
+
+.bground-prt{
+    display: none;
+}
+
 
 .medplan-details{
     width: 70%;
@@ -99,6 +105,45 @@
 }
 
 
+.med-props-texter{
+    width: 33.854vw;
+}
+
+
+.med-props-texter > h1{
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 3.25vw;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);    
+    padding-top: 7%;
+}
+
+.med-props-texter > p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.979vw;
+    text-align: left;
+    margin-top: 15%;
+}
+
+.med-props-texter > h2{
+    color: rgba(61, 68, 195, 1);
+    padding-top: 17%;
+    padding-bottom: 1.667vw;
+    font-weight: 500;
+}
+
+
+.med-props-texter > h3{
+    color: rgba(98, 42, 255, 1);
+    padding-top: 37%;
+    padding-bottom: 1.667vw;
+    font-weight: 500;
+}
+
+
 .med-rem-props{
     display: flex;
     flex-direction: row;
@@ -114,10 +159,12 @@
     height: auto;
     object-fit: cover;
     margin-left: 10vw;
+    
 }
 
 .medplan-container-info1{
-    margin-top: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
 }
 
 .medplan-container-info1 > h1{
@@ -178,7 +225,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 1.5%;
+    margin-top: 3.5%;
 }
 
 .med-health-ctn{
@@ -250,6 +297,7 @@
 
 .medplan-container-info2{
     margin-top: 4.333vw;
+    margin-bottom: 7vh;
 }
 
 .medplan-container-info2 > h1{
@@ -374,9 +422,9 @@
     color: rgba(18, 18, 18, 1);
     font-size: 2.5vw;
     font-weight: 600;
-    line-height: 2.729vw;
+    line-height: 3.729vw;
     text-align: right; 
-    width: 45.896vw;   
+    width: 45.896vw;
 }
 
 .med-rec2-ctn{
@@ -430,6 +478,7 @@
     line-height: 3.49vw;
     text-align: left;    
     margin-top: 5%;
+    width: 26.354vw;
 }
 
 .med-rec2-ctn2 > h2{
@@ -494,6 +543,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 4% 5% 0 5%;
+    margin: 5vh 0;
 }
 
 .med-dld-ctn > img{
@@ -534,7 +584,8 @@
 .med-dld-ctn2 > p{
     font-size: 2.344vw;
     font-weight: 600;
-    line-height: 3.271vw;
+    /* line-height: 3.271vw; */
+    margin-top: -1%;
     text-align: left;
     color: rgba(18, 18, 18, 1);    
 }
@@ -544,7 +595,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 72%;
 }
 
 .download-btns img{
@@ -585,13 +636,22 @@
     margin: 1.667vw auto;
 }
 
+.med-right{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+    padding: 0 0 3rem 0;
+    width: 100%;
+    justify-content: center;
+}
+
 .med-success-stories{
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
     margin-left: 15vw;
     scrollbar-width: none;
-    padding: 5% 0;
+    padding: 5% 0 1% 0;
 }
 
 .med-success-stories::-webkit-scrollbar {
@@ -676,6 +736,8 @@
     line-height: 2.613vw;
     text-align: left;
     color: rgba(18, 18, 18, 1);    
+    width: 35vw;
+    padding-top: 1rem;
 }
 
 .med-inv-text > p{
@@ -730,7 +792,7 @@
     display: none;
 }
 
-.med-props-text > h4{
+.med-props-texter > h4{
     display: none;
 }
 
@@ -740,8 +802,16 @@
 
 @media screen and (max-width: 768px) {
     .medplan-background > img{
-        width: 130vw;
-        margin-left: -13vw;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .bground-desktop{
+        display: none;
+    }
+
+    .bground-prt{
+        display: block;
     }
 
     .medplan-details{
@@ -783,7 +853,8 @@
         font-size: 20px;
         font-weight: 600;
         line-height: 26px;
-        text-align: left;        
+        text-align: left;  
+        margin-top: 3rem;      
     }
 
     .med-props-text > h6{
@@ -818,6 +889,7 @@
 
     .medplan-container-info1 {
         margin-top: 5vh;
+        margin-bottom: 2vh;
     }
 
     .medplan-container-info1 > h1{
@@ -931,6 +1003,14 @@
         line-height: 31.2px;
         text-align: left;
         margin-top: 8rem;
+    }
+
+    .medplan-container-info1{
+        margin-bottom: 0;
+    }
+
+    .medplan-container-info2 {
+        margin-bottom: 1vh;
     }
 
     .medplan-container-info2 > h1 {
@@ -1127,10 +1207,11 @@
     
     .med-rec2-ctn2 > p{
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 23.4px;
         text-align: left;
         padding: 2rem 0 6rem 0;
+        width: 55vw;
     }
 
     .med-rec2-ctn2 > img{
@@ -1147,7 +1228,7 @@
         line-height: 26px;
         text-align: left;
         margin-left: 5%;
-        margin-top: 2rem;
+        margin-top: 3.5rem;
     }
 
     .med-props-container1{
@@ -1363,16 +1444,17 @@
 
 
     .med-inv-text > h1{
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 500;
         line-height: 31.2px;
         text-align: left;
+        width: 100%;
     }
 
     .med-inv-text > p{
         font-size: 16px;
         font-weight: 400;
-        line-height: 20.2px;
+        line-height: 25.2px;
         text-align: left;
     }
 
@@ -1386,6 +1468,49 @@
         margin: 5% 0;
 
     }
+
+
+
+    .med-props-texter{
+        width: 100%;
+    }
+
+    .med-props-texter >h1{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23.4px;
+        text-align: left;
+        color: rgba(18, 18, 18, 1);
+        margin-top: -1.5vh;
+    }
+
+    .med-props-texter > h4{
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+        text-align: left;
+        color: rgba(98, 42, 255, 1);
+        margin: 2rem 0 0 0;
+    }
+
+    .med-props-texter > p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        text-align: left;
+        margin: 0 0 2rem 0;
+    }
+
+    .med-props-texter > h3{
+        display: none;
+    }
+    
+    .med-right{
+        margin: 2px 0;
+        padding: 0 0 1rem 0;
+    }
+
 
 
 

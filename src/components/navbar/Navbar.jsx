@@ -1,5 +1,5 @@
 import React from 'react';
-import white from  "../images/medplanwhite.png";
+import white from  "../../images/medplanwhite.png";
 import "./navbar.css"
 
 const Navbar = () => {

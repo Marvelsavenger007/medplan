@@ -1,26 +1,28 @@
 import React, { useState } from 'react';
 import "./medplan.css"
-import medbground from "../components/images/medbground.webp";
-import medoldpeople from "../components/images/medoldpeople.webp";
-import medcycling from "../components/images/medcycling.png";
-import healthdoc from "../components/images/healthdoc.webp";
-import iphonehlth from "../components/images/iphonehlth.webp";
-import iphonelang from "../components/images/iphonelang.webp";
-import iphonetrk from "../components/images/iphonetrk.png";
-import medtrad from "../components/images/medtrad.webp";
-import iphonerecord from "../components/images/iphonerecord.webp";
-import recordguy from "../components/images/recordguy.webp";
-import medpatientgrp from "../components/images/medpatientgrp.png";
-import padlock from "../components/images/padlock.webp";
-import telemed from "../components/images/telemed.webp";
-import statistics from "../components/images/statistics.png";
-import iphonedownload from "../components/images/iphonedownload.webp";
-import appstore from "../components/images/appstore.png";
-import playstore from "../components/images/googleplay.png";
-import story1 from "../components/images/story1.png";
-import story2 from "../components/images/story2.webp";
-import story3 from "../components/images/story3.webp";
-import medvr from "../components/images/medvr.webp";
+import medbground from "../images/medbground.webp";
+import medoldpeople from "../images/medoldpeople.webp";
+import medcycling from "../images/medcycling.png";
+import healthdoc from "../images/healthdoc.webp";
+import iphonehlth from "../images/iphonehlth.webp";
+import iphonelang from "../images/iphonelang.webp";
+import iphonetrk from "../images/iphonetrk.png";
+import medtrad from "../images/medtrad.webp";
+import iphonerecord from "../images/iphonerecord.webp";
+import recordguy from "../images/recordguy.webp";
+import medpatientgrp from "../images/medpatientgrp.png";
+import padlock from "../images/padlock.webp";
+import telemed from "../images/telemed.webp";
+import statistics from "../images/statistics.png";
+import iphonedownload from "../images/iphonedownload.webp";
+import appstore from "../images/appstore.png";
+import playstore from "../images/googleplay.png";
+import blueright from "../images/blueright.png";
+import mobilebground from "../images/mobilebground.png";
+import story1 from "../images/story1.png";
+import story2 from "../images/story2.webp";
+import story3 from "../images/story3.webp";
+import medvr from "../images/medvr.webp";
 import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar';
 
@@ -47,6 +49,10 @@ const Medplan = () => {
 
     ]
 
+
+
+
+
     return (
         <div className='medplan-main'>
             <Navbar />
@@ -56,6 +62,14 @@ const Medplan = () => {
                     width="100%"
                     height="100%"
                     alt='icon'
+                    className='bground-desktop'
+                />
+                <img
+                    src={mobilebground}
+                    width="100%"
+                    height="100%"
+                    alt='icon'
+                    className='bground-prt'
                 />
             </div>
             <div className='medplan-details'>
@@ -188,7 +202,7 @@ const Medplan = () => {
                 </div>
                 <div className='medplan-props-container'>
                     <div className='med-health-props'>
-                        <div className='med-props-text'>
+                        <div className='med-props-texter'>
                             <h4>Get health advice at your finger tips</h4>
                             <h1>A more interesting way to get health tips</h1>
                             <p>
@@ -221,7 +235,7 @@ const Medplan = () => {
                         </div>
                         <div className='med-record-ctn1'>
                             <h2>Know your Numbers</h2>
-                            <p>Access your health record anywhere anytime.</p>
+                            <p>Access your health record <br /> anywhere anytime.</p>
                             <img
                                 src={recordguy}
                                 width="100%"
@@ -252,8 +266,8 @@ const Medplan = () => {
                             height="100%"
                             alt='icon'
                         />
-                        <p>No one else but you <br />
-                            can access your medical <br />
+                        <p>No one else but you
+                            can access your medical
                             records.
                         </p>
                     </div>
@@ -349,6 +363,14 @@ const Medplan = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className='med-right'>
+                    <img
+                        src={blueright}
+                        width="32px"
+                        height="32px"
+                        alt='icon'
+                    />
                 </div>
             </div>
             <div className='medplan-innovation'>

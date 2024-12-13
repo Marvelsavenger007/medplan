@@ -1,5 +1,5 @@
 import React from 'react';
-import medplan from "../images/medplanicon.png";
+import medplan from "../../images/medplanicon.png";
 import "./footer.css";
 
 const Footer = () => {
