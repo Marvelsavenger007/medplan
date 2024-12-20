@@ -17,7 +17,6 @@ import statistics from "../images/statistics.png";
 import iphonedownload from "../images/iphonedownload.webp";
 import appstore from "../images/appstore.png";
 import playstore from "../images/googleplay.png";
-import blueright from "../images/blueright.png";
 import mobilebground from "../images/mobilebground.png";
 import story1 from "../images/story1.png";
 import story2 from "../images/story2.webp";
