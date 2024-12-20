@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import "./medplan.css"
 import medbground from "../images/medbground.webp";
 import medoldpeople from "../images/medoldpeople.webp";
@@ -49,7 +49,26 @@ const Medplan = () => {
     ]
 
 
+    const scrollContainerRef = useRef(null);
 
+    useEffect(() => {
+        const scrollContainer = scrollContainerRef.current;
+
+        let scrollAmount = 0;
+        const scrollSpeed = 1.5;
+
+        const scroll = () => {
+            if (!scrollContainer) return;
+            scrollAmount += scrollSpeed;
+            if (scrollAmount >= scrollContainer.scrollWidth / 2) {
+                scrollAmount = 0;
+            }
+            scrollContainer.scrollLeft = scrollAmount;
+        };
+        const interval = setInterval(scroll, 10);
+
+        return () => clearInterval(interval);
+    }, []);
 
 
     return (
@@ -343,9 +362,9 @@ const Medplan = () => {
             <div className='medplan-stories'>
                 <h2>Success Stories</h2>
                 <h1>Empowering Smarter Health Decisions Every Day</h1>
-                <p>Everyday our solution are helping thousands of individuals take more informed decisions about their health</p>
-                <div className='med-success-stories'>
-                    {stories.map((story, index) => (
+                <p>Everyday our solutions are helping thousands of individuals take more informed decisions about their health.</p>
+                <div className='med-success-stories' ref={scrollContainerRef}>
+                    {[...stories, ...stories].map((story, index) => (
                         <div className='med-stories-ctn' key={index}>
                             <div className='stories-img'>
                                 <img
@@ -357,7 +376,7 @@ const Medplan = () => {
                             </div>
                             <div className='stories-text'>
                                 <p>{story.para1}</p>
-                                <p>{story.para2} </p>
+                                <p>{story.para2}</p>
                                 <h2>{story.name}</h2>
                             </div>
                         </div>
@@ -383,7 +402,7 @@ const Medplan = () => {
                         reminder mobile application, medPlan®, while the control group consisted of those patients
                         who did not use the application. Adherence to medication was measured............
                     </p>
-                    <a href=''>
+                    <a href='https://www.ajol.info/index.php/tjpr/article/view/204731'>
                         <button>Read Full Paper</button>
                     </a>
                 </div>
