@@ -1,0 +1,39 @@
+.navbar{
+    background-color: rgba(0, 124, 238, 1);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.nav-content{
+    padding: 0.3% 5%;
+}
+
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-header > h1{
+    font-size: 0.729vw;
+    font-weight: 400;
+    line-height: 0.938vw;
+    text-align: left;    
+    color: rgba(255, 255, 255, 1);    
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-header >  h1{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15.6px;
+        text-align: left;
+    }   
+    
+    .nav-content{
+        padding: 10px 5%;
+    }
+}
