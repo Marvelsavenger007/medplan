@@ -55,7 +55,7 @@ const Medplan = () => {
         const scrollContainer = scrollContainerRef.current;
 
         let scrollAmount = 0;
-        const scrollSpeed = 1.5;
+        const scrollSpeed = 1;
 
         const scroll = () => {
             if (!scrollContainer) return;
@@ -65,7 +65,7 @@ const Medplan = () => {
             }
             scrollContainer.scrollLeft = scrollAmount;
         };
-        const interval = setInterval(scroll, 10);
+        const interval = setInterval(scroll, 40);
 
         return () => clearInterval(interval);
     }, []);
@@ -381,6 +381,11 @@ const Medplan = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className='slide-indicators'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
             <div className='medplan-innovation'>

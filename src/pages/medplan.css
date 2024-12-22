@@ -685,6 +685,22 @@
     padding: 5%;
 }
 
+.slide-indicators{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 4rem;
+    margin: 2rem auto;
+    padding-bottom: 3rem;
+}
+
+.slide-indicators > div{
+    width: 20px;
+    height: 20px;
+    background-color: #007CEE;
+    border-radius: 50%;
+}
 
 .stories-text > p{
     font-size: 1.354vw;
@@ -799,6 +815,8 @@
 .med-dld-ctn3{
     display: none;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .medplan-background > img{
@@ -1415,6 +1433,17 @@
         width: 90%;      
         margin: 0 auto;
         padding-bottom: 2rem;
+    }
+
+    .slide-indicators {
+        width: 2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .slide-indicators > div{
+        width: 10px;
+        height: 10px;
     }
 
     .medplan-innovation{
