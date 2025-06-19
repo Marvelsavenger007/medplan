@@ -1,1548 +1,1551 @@
-.medplan-main{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-    background-color: rgba(243, 243, 243, 1);
+.medplan-main {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(243, 243, 243, 1);
 }
 
-.medplan-background{
-    width: 100%;
-    padding-top: 3rem;
+.medplan-background {
+  width: 100%;
+  padding-top: 3rem;
 }
 
-.bground-desktop> img{
-    width: 130vw;
-    margin-left: -14vw;
-    display: block;
+.bground-desktop > img {
+  width: 130vw;
+  margin-left: -14vw;
+  display: block;
 }
 
-.bground-prt{
-    display: none;
+.bground-prt {
+  display: none;
 }
 
-
-.medplan-details{
-    width: 70%;
-    margin: -11vh auto 12vh auto;
-    text-align: center;
+.medplan-details {
+  width: 70%;
+  margin: -11vh auto 12vh auto;
+  text-align: center;
 }
 
-.medplan-details > h1{
-    color: rgba(18, 18, 18, 1);
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.229vw;
-    text-align: center;    
-    width: 50vw;
-    margin: 5px auto;
+.medplan-details > h1 {
+  color: rgba(18, 18, 18, 1);
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.229vw;
+  text-align: center;
+  width: 50vw;
+  margin: 5px auto;
 }
 
-.medplan-details > p{
-    color: rgba(18, 18, 18, 1);    
-    width: 46.979vw;
-    font-size: 1.458vw;
-    font-weight: 400;
-    line-height: 1.875vw;
-    text-align: center;    
-    margin: 20px auto;
+.medplan-details > p {
+  color: rgba(18, 18, 18, 1);
+  width: 46.979vw;
+  font-size: 1.458vw;
+  font-weight: 400;
+  line-height: 1.875vw;
+  text-align: center;
+  margin: 20px auto;
 }
 
-.medplan-med-containers{
-    width: 93%;
-    margin: 0.833vw auto;
+.medplan-med-containers {
+  width: 93%;
+  margin: 0.833vw auto;
 }
 
-.medplan-container-info > h1{
-    font-size: 2.613vw;
-    padding-left: 4vw;
-    font-weight: 600;
-    line-height: 3.646vw;
-    text-align: left;
-    color: rgba(53, 151, 242, 1);    
+.medplan-container-info > h1 {
+  font-size: 2.613vw;
+  padding-left: 4vw;
+  font-weight: 600;
+  line-height: 3.646vw;
+  text-align: left;
+  color: rgba(53, 151, 242, 1);
 }
 
-.medplan-props-container{
-    background-color: rgba(255, 255, 255, 1);
-    padding: 1.667vw 4.333vw 0.833vw 4.333vw;
-    border-radius: 2.198vw;
+.medplan-props-container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.667vw 4.333vw 0.833vw 4.333vw;
+  border-radius: 2.198vw;
 }
 
-.med-props-text{    
-    width: 44.74vw;
+.med-props-text {
+  width: 44.74vw;
 }
 
-.med-props-text > h1{
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.25vw;
-    text-align: left;
-    color: rgba(18, 18, 18, 1);    
+.med-props-text > h1 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.25vw;
+  text-align: left;
+  color: rgba(18, 18, 18, 1);
 }
 
-.med-props-text > p{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 1.979vw;
-    text-align: left;
-    margin-top: 15%;
+.med-props-text > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.979vw;
+  text-align: left;
+  margin-top: 15%;
 }
 
-.med-props-text > h2{
-    color: rgba(61, 68, 195, 1);
-    padding-top: 20%;
-    padding-bottom: 1.667vw;
-    font-weight: 500;
+.med-props-text > h2 {
+  color: rgba(61, 68, 195, 1);
+  padding-top: 20%;
+  padding-bottom: 1.667vw;
+  font-weight: 500;
 }
 
-
-.med-props-text > h3{
-    color: rgba(98, 42, 255, 1);
-    padding-top: 20%;
-    padding-bottom: 1.667vw;
-    font-weight: 500;
+.med-props-text > h3 {
+  color: rgba(98, 42, 255, 1);
+  padding-top: 20%;
+  padding-bottom: 1.667vw;
+  font-weight: 500;
 }
 
-
-.med-props-texter{
-    width: 33.854vw;
+.med-props-texter {
+  width: 33.854vw;
 }
 
-
-.med-props-texter > h1{
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.25vw;
-    text-align: left;
-    color: rgba(18, 18, 18, 1);    
-    padding-top: 7%;
+.med-props-texter > h1 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.25vw;
+  text-align: left;
+  color: rgba(18, 18, 18, 1);
+  padding-top: 7%;
 }
 
-.med-props-texter > p{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 1.979vw;
-    text-align: left;
-    margin-top: 15%;
+.med-props-texter > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.979vw;
+  text-align: left;
+  margin-top: 15%;
 }
 
-.med-props-texter > h2{
-    color: rgba(61, 68, 195, 1);
-    padding-top: 17%;
-    padding-bottom: 1.667vw;
-    font-weight: 500;
+.med-props-texter > h2 {
+  color: rgba(61, 68, 195, 1);
+  padding-top: 17%;
+  padding-bottom: 1.667vw;
+  font-weight: 500;
 }
 
-
-.med-props-texter > h3{
-    color: rgba(98, 42, 255, 1);
-    padding-top: 37%;
-    padding-bottom: 1.667vw;
-    font-weight: 500;
+.med-props-texter > h3 {
+  color: rgba(98, 42, 255, 1);
+  padding-top: 37%;
+  padding-bottom: 1.667vw;
+  font-weight: 500;
 }
 
-
-.med-rem-props{
-    display: flex;
-    flex-direction: row;
+.med-rem-props {
+  display: flex;
+  flex-direction: row;
 }
 
-.med-rem-ctn > img{
-    width: 49.167vw;
-    height: auto;
+.med-rem-ctn > img {
+  width: 49.167vw;
+  height: auto;
 }
 
-.med-rem-ctn2 > img{
-    width: 17.135vw;
-    height: auto;
-    object-fit: cover;
-    margin-left: 10vw;
-    
+.med-rem-ctn2 > img {
+  width: 17.135vw;
+  height: auto;
+  object-fit: cover;
+  margin-left: 10vw;
 }
 
-.medplan-container-info1{
-    margin-top: 10vh;
-    margin-bottom: 8vh;
+.medplan-container-info1 {
+  margin-top: 10vh;
+  margin-bottom: 8vh;
 }
 
-.medplan-container-info1 > h1{
-    font-size: 2.613vw;
-    padding-left: 4vw;
-    font-weight: 600;
-    line-height: 3.646vw;
-    text-align: left;
-    color: rgba(61, 68, 195, 1);   
-    margin-bottom: 6vh;
+.medplan-container-info1 > h1 {
+  font-size: 2.613vw;
+  padding-left: 4vw;
+  font-weight: 600;
+  line-height: 3.646vw;
+  text-align: left;
+  color: rgba(61, 68, 195, 1);
+  margin-bottom: 6vh;
 }
 
-.med-health-props{
-    background-color: rgba(255, 255, 255, 1);
-    padding: 5vw 4.333vw 0 0.833vw;
-    border-radius: 2.198vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.med-health-props {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5vw 4.333vw 0 0.833vw;
+  border-radius: 2.198vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.med-props-text1{    
-    width: 44.74vw;
+.med-props-text1 {
+  width: 44.74vw;
 }
 
-.med-props-text1 > h1{
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.25vw;
-    text-align: left;
-    color: rgba(18, 18, 18, 1);   
-    width: 34vw; 
+.med-props-text1 > h1 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.25vw;
+  text-align: left;
+  color: rgba(18, 18, 18, 1);
+  width: 34vw;
 }
 
-.med-props-text1 > p{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 1.979vw;
-    text-align: left;
-    width: 38vw;
+.med-props-text1 > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.979vw;
+  text-align: left;
+  width: 38vw;
 }
 
-.med-props-text1 > h2{
-    color: rgba(61, 68, 195, 1);
-    margin-top: 25%;
-    padding-bottom: 1.667vw;
-    font-weight: 500;
+.med-props-text1 > h2 {
+  color: rgba(61, 68, 195, 1);
+  margin-top: 25%;
+  padding-bottom: 1.667vw;
+  font-weight: 500;
 }
 
 .med-health-img {
-    width: 34.25vw;
-    margin-bottom: -1vw;
-    object-fit: cover;
+  width: 34.25vw;
+  margin-bottom: -1vw;
+  object-fit: cover;
 }
 
-.med-health-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 3.5%;
+.med-health-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3.5%;
 }
 
-.med-health-ctn{
-    width: 41%;
-    border-radius: 1.25vw;
-    background-color: rgba(255, 255, 255, 1);
-    overflow: hidden;
-    padding: 1.667vw 3vw 0 3vw;
+.med-health-ctn {
+  width: 41%;
+  border-radius: 1.25vw;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  padding: 1.667vw 3vw 0 3vw;
 }
 
-.med-health-ctn > img{
-    width: 32.792vw;
-    height: auto;
-    margin: 0 3%;
-    object-fit: contain;
+.med-health-ctn > img {
+  width: 32.792vw;
+  height: auto;
+  margin: 0 3%;
+  object-fit: contain;
 }
 
-.med-health-ctn > h2{
-    color: rgba(61, 68, 195, 1);
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: left;    
+.med-health-ctn > h2 {
+  color: rgba(61, 68, 195, 1);
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: left;
 }
 
-.med-health-ctn > p{
-    font-size: 1.55vw;
-    font-weight: 400;
-    line-height: 2.179vw;
-    letter-spacing: -0.0017em;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.7);   
-    margin-bottom: 9vh; 
-    width: 35.854vw;
+.med-health-ctn > p {
+  font-size: 1.55vw;
+  font-weight: 400;
+  line-height: 2.179vw;
+  letter-spacing: -0.0017em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 9vh;
+  width: 35.854vw;
 }
 
-.med-health-ctn2{
-    width: 42%;
-    overflow: hidden;
-    border-radius: 1.25vw;
-    padding: 3rem 3vw 0 3rem;
-    background: linear-gradient(154.53deg, #3D44C3 -2.77%, #3D44C3 10.78%, #7663B0 78.83%, #3DA5C3 136.17%);
+.med-health-ctn2 {
+  width: 42%;
+  overflow: hidden;
+  border-radius: 1.25vw;
+  padding: 3rem 3vw 0 3rem;
+  background: linear-gradient(
+    154.53deg,
+    #3d44c3 -2.77%,
+    #3d44c3 10.78%,
+    #7663b0 78.83%,
+    #3da5c3 136.17%
+  );
 }
 
-.med-health-ctn2 > img{
-    width: 8.854vw;
-    height: auto;
-    margin-bottom: 4.333vw;
-    margin-top: 9vh;
+.med-health-ctn2 > img {
+  width: 8.854vw;
+  height: auto;
+  margin-bottom: 4.333vw;
+  margin-top: 9vh;
 }
 
-.med-health-ctn2 > h2{
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: left;   
-    margin-bottom: 14%; 
+.med-health-ctn2 > h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: left;
+  margin-bottom: 14%;
 }
 
-.med-health-ctn2 > p{
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.25vw;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    margin-top: 4vh;
+.med-health-ctn2 > p {
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.25vw;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 4vh;
 }
 
-.medplan-container-info2{
-    margin-top: 4.333vw;
-    margin-bottom: 7vh;
+.medplan-container-info2 {
+  margin-top: 4.333vw;
+  margin-bottom: 7vh;
 }
 
-.medplan-container-info2 > h1{
-    font-size: 3.021vw;
-    font-weight: 600;
-    line-height: 3.906vw;
-    text-align: left;
-    color: rgba(115, 180, 57, 1);    
+.medplan-container-info2 > h1 {
+  font-size: 3.021vw;
+  font-weight: 600;
+  line-height: 3.906vw;
+  text-align: left;
+  color: rgba(115, 180, 57, 1);
 }
 
-.med-lang-props{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1% 0 2% 0;
+.med-lang-props {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1% 0 2% 0;
 }
 
-.med-lang-ctn{
-    background: linear-gradient(155.2deg, #73B439 -5.43%, #BCD69B 62.04%, #FFFFFF 122.56%);
-    padding: 1.667vw;
-    border-radius: 1.25vw;
-    width: 44%;
+.med-lang-ctn {
+  background: linear-gradient(
+    155.2deg,
+    #73b439 -5.43%,
+    #bcd69b 62.04%,
+    #ffffff 122.56%
+  );
+  padding: 1.667vw;
+  border-radius: 1.25vw;
+  width: 44%;
 }
 
-.med-lang-ctn > h1{
-    color: rgba(255, 255, 255, 1);
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.25vw;
-    text-align: left;    
-    padding-bottom: 20%;
+.med-lang-ctn > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.25vw;
+  text-align: left;
+  padding-bottom: 20%;
 }
 
-.med-lang-ctn > img{
-    width: 8.854vw;
-    height: auto;
-    margin-top: 17%;
+.med-lang-ctn > img {
+  width: 8.854vw;
+  height: auto;
+  margin-top: 17%;
 }
 
-.med-lang-ctn1{
-    width: 44%;
-    padding: 1.667vw;
-    border-radius: 1.25vw;
-    background-color: rgba(255, 255, 255, 1);
+.med-lang-ctn1 {
+  width: 44%;
+  padding: 1.667vw;
+  border-radius: 1.25vw;
+  background-color: rgba(255, 255, 255, 1);
 }
 
-.med-lang-ctn1 > h2{
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: left;
-    color: rgba(115, 180, 57, 1);    
+.med-lang-ctn1 > h2 {
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: left;
+  color: rgba(115, 180, 57, 1);
 }
 
-.med-lang-ctn1 > P{
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 1.875vw;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.7);    
+.med-lang-ctn1 > P {
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.875vw;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.med-lang-ctn1 > img{
-    width: 42.448vw;
-    height: auto;
+.med-lang-ctn1 > img {
+  width: 42.448vw;
+  height: auto;
 }
 
-.medplan-container-info3{
-    margin-top: 16vh;
+.medplan-container-info3 {
+  margin-top: 16vh;
 }
 
-.medplan-container-info3 > h1{
-    font-size: 2.613vw;
-    padding-left: 4vw;
-    font-weight: 600;
-    line-height: 3.646vw;
-    text-align: left;
-    color: rgba(5, 100, 193, 1);
+.medplan-container-info3 > h1 {
+  font-size: 2.613vw;
+  padding-left: 4vw;
+  font-weight: 600;
+  line-height: 3.646vw;
+  text-align: left;
+  color: rgba(5, 100, 193, 1);
 }
 
-.med-props-container{
-    background-color: rgba(255, 255, 255, 1);
-    padding: 1.667vw 4.333vw 0 4.333vw;
-    border-radius: 2.198vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
+.med-props-container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.667vw 4.333vw 0 4.333vw;
+  border-radius: 2.198vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
-
-.med-props-container1{
-    background-color: rgba(255, 255, 255, 1);
-    padding: 1.667vw 4.333vw 0 4.333vw;
-    border-radius: 2.198vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
+.med-props-container1 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.667vw 4.333vw 0 4.333vw;
+  border-radius: 2.198vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
-.med-record-ctn > img{
-    width: 35.417vw;
+.med-record-ctn > img {
+  width: 35.417vw;
 }
 
-.med-record-ctn1 > img{
-    width: 35.521vw;
-    height: auto;
-    margin-bottom: -1vh;
-    margin-left: 10vw;
+.med-record-ctn1 > img {
+  width: 35.521vw;
+  height: auto;
+  margin-bottom: -1vh;
+  margin-left: 10vw;
 }
 
-.med-record-ctn1 > h2{
-    color: rgba(5, 100, 193, 1);
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: right;    
+.med-record-ctn1 > h2 {
+  color: rgba(5, 100, 193, 1);
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: right;
 }
 
-.med-record-ctn1 > p{
-    color: rgba(18, 18, 18, 1);
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.729vw;
-    text-align: right; 
-    width: 45.896vw;
+.med-record-ctn1 > p {
+  color: rgba(18, 18, 18, 1);
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.729vw;
+  text-align: right;
+  width: 45.896vw;
 }
 
-.med-rec2-ctn{
-    width: 42%;
-    border-radius: 1.25vw;
-    background-color: rgba(255, 255, 255, 1);
-    padding: 1.667vw 1.833vw 0 3rem;
+.med-rec2-ctn {
+  width: 42%;
+  border-radius: 1.25vw;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.667vw 1.833vw 0 3rem;
 }
 
-.med-rec2-ctn > img{
-    width: 28.646vw;
-    height: auto;
-    padding: 15% 0;
-    margin: 0 15%;
+.med-rec2-ctn > img {
+  width: 28.646vw;
+  height: auto;
+  padding: 15% 0;
+  margin: 0 15%;
 }
 
-.med-rec2-ctn > h2{
-    color: rgba(8, 83, 161, 1);
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: left;    
+.med-rec2-ctn > h2 {
+  color: rgba(8, 83, 161, 1);
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: left;
 }
 
-.med-rec2-ctn > p{
-    color: rgba(18, 18, 18, 1);
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: left;    
+.med-rec2-ctn > p {
+  color: rgba(18, 18, 18, 1);
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
 }
 
-.med-rec2-ctn2{
-    width: 45%;
-    border-radius: 1.25vw;
-    background: linear-gradient(155.9deg, #007CEE 0.3%, #121832 100.18%);
-    overflow: hidden;
-    padding: 1.667vw 0.833vw 0 3rem;
+.med-rec2-ctn2 {
+  width: 45%;
+  border-radius: 1.25vw;
+  background: linear-gradient(155.9deg, #007cee 0.3%, #121832 100.18%);
+  overflow: hidden;
+  padding: 1.667vw 0.833vw 0 3rem;
 }
 
-.med-rec2-ctn2 > img{
-    width: 8.854vw;
-    height: auto;
-    margin-top: 15%;
+.med-rec2-ctn2 > img {
+  width: 8.854vw;
+  height: auto;
+  margin-top: 15%;
 }
 
-.med-rec2-ctn2 > p{
-    color: rgba(255, 255, 255, 1);
-    font-size: 2.708vw;
-    font-weight: 600;
-    line-height: 3.49vw;
-    text-align: left;    
-    margin-top: 5%;
-    width: 26.354vw;
+.med-rec2-ctn2 > p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.708vw;
+  font-weight: 600;
+  line-height: 3.49vw;
+  text-align: left;
+  margin-top: 5%;
+  width: 26.354vw;
 }
 
-.med-rec2-ctn2 > h2{
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);    
+.med-rec2-ctn2 > h2 {
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
 }
 
-.medplan-container-info4{
-    margin-top: 7vh;
+.medplan-container-info4 {
+  margin-top: 7vh;
 }
 
-.medplan-container-info4 > h1{
-    color: rgba(0, 212, 54, 1);
-    font-size: 4.333vw;
-    font-weight: 600;
-    line-height: 4.323vw;
-    text-align: left;    
+.medplan-container-info4 > h1 {
+  color: rgba(0, 212, 54, 1);
+  font-size: 4.333vw;
+  font-weight: 600;
+  line-height: 4.323vw;
+  text-align: left;
 }
 
-.med-tele-ctn2 > img{
-    width: 38.021vw;
-    height: auto;
+.med-tele-ctn2 > img {
+  width: 38.021vw;
+  height: auto;
 }
 
-.med-tele-ctn{
-    width: 33.438vw;
-    padding-top: 5%;
+.med-tele-ctn {
+  width: 33.438vw;
+  padding-top: 5%;
 }
 
-.med-tele-ctn > h1{
-    color: rgba(18, 18, 18, 1);
-    font-size: 2.5vw;
-    font-weight: 600;
-    line-height: 3.25vw;
-    text-align: left;    
+.med-tele-ctn > h1 {
+  color: rgba(18, 18, 18, 1);
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3.25vw;
+  text-align: left;
 }
 
-.med-tele-ctn > h2{
-    color: rgba(0, 212, 54, 1);
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: left;    
+.med-tele-ctn > h2 {
+  color: rgba(0, 212, 54, 1);
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: left;
 }
 
-.med-tele-ctn > p{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 1.875vw;
-    text-align: left;    
-    margin-bottom: 19%;
-    margin-top: 15%;
+.med-tele-ctn > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.875vw;
+  text-align: left;
+  margin-bottom: 19%;
+  margin-top: 15%;
 }
 
-.medplan-download{
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4% 5% 0 5%;
-    margin: 5vh 0;
+.medplan-download {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4% 5% 0 5%;
+  margin: 5vh 0;
 }
 
-.med-dld-ctn > img{
-    width: 36.927vw;
+.med-dld-ctn > img {
+  width: 36.927vw;
 }
 
-.med-dld-ctn2{
-    width: 44.99vw;
+.med-dld-ctn2 {
+  width: 44.99vw;
 }
 
-.med-dld-ctn2  button {
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 1.25vw;
-    padding: 0.521vw 1.563vw;
-    color: rgba(67, 68, 62, 1);
-    background-color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-    transition: all ease 0.3s;
-    float: right;
-    font-size: 1.042vw;
+.med-dld-ctn2 button {
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 1.25vw;
+  padding: 0.521vw 1.563vw;
+  color: rgba(67, 68, 62, 1);
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: all ease 0.3s;
+  float: right;
+  font-size: 1.042vw;
 }
 
-.med-dld-ctn2 button:hover{
-    background-color: rgba(5, 100, 193, 1);
-    color: white;
-    border: none;
+.med-dld-ctn2 button:hover {
+  background-color: rgba(5, 100, 193, 1);
+  color: white;
+  border: none;
 }
 
-.med-dld-ctn2 > h2{
-    color: rgba(0, 124, 238, 1);
-    font-size: 1.875vw;
-    font-weight: 600;
-    line-height: 1.396vw;
-    text-align: left;
-    padding-top: 10rem;
+.med-dld-ctn2 > h2 {
+  color: rgba(0, 124, 238, 1);
+  font-size: 1.875vw;
+  font-weight: 600;
+  line-height: 1.396vw;
+  text-align: left;
+  padding-top: 10rem;
 }
 
-.med-dld-ctn2 > p{
-    font-size: 2.344vw;
-    font-weight: 600;
-    /* line-height: 3.271vw; */
-    margin-top: -1%;
-    text-align: left;
-    color: rgba(18, 18, 18, 1);    
+.med-dld-ctn2 > p {
+  font-size: 2.344vw;
+  font-weight: 600;
+  /* line-height: 3.271vw; */
+  margin-top: -1%;
+  text-align: left;
+  color: rgba(18, 18, 18, 1);
 }
 
-.download-btns{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 72%;
+.download-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 72%;
 }
 
-.download-btns img{
-    width: 15.677vw;
-    height: auto;
+.download-btns img {
+  width: 15.677vw;
+  height: auto;
 }
 
-.medplan-stories{
-    background-color: rgba(255, 255, 255, 1);    
+.medplan-stories {
+  background-color: rgba(255, 255, 255, 1);
 }
 
-.medplan-stories > h2{
-    color: rgba(18, 18, 18, 0.75);
-    font-size: 1.25vw;
-    font-weight: 500;
-    line-height: 1.615vw;
-    text-align: center; 
-    padding-top: 7%;
+.medplan-stories > h2 {
+  color: rgba(18, 18, 18, 0.75);
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 1.615vw;
+  text-align: center;
+  padding-top: 7%;
 }
 
-.medplan-stories > h1{
-    font-size: 2.5vw;
-    font-weight: 500;
-    line-height: 3.25vw;
-    text-align: center;
-    color: rgba(18, 18, 18, 1);    
-    width: 40vw;
-    margin: 0.833vw auto;
+.medplan-stories > h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  line-height: 3.25vw;
+  text-align: center;
+  color: rgba(18, 18, 18, 1);
+  width: 40vw;
+  margin: 0.833vw auto;
 }
 
-.medplan-stories > p{
-    color: rgba(18, 18, 18, 1);
-    font-size: 1.25vw;
-    font-weight: 400;
-    line-height: 1.563vw;
-    text-align: center;    
-    width: 56vw;
-    margin: 1.667vw auto;
+.medplan-stories > p {
+  color: rgba(18, 18, 18, 1);
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 1.563vw;
+  text-align: center;
+  width: 56vw;
+  margin: 1.667vw auto;
 }
 
-.med-right{
-    display: flex;
-    flex-direction: row;
-    margin: 1rem 0;
-    padding: 0 0 3rem 0;
-    width: 100%;
-    justify-content: center;
+.med-right {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  padding: 0 0 3rem 0;
+  width: 100%;
+  justify-content: center;
 }
 
-.med-success-stories{
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    margin-left: 15vw;
-    scrollbar-width: none;
-    padding: 5% 0 1% 0;
+.med-success-stories {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-left: 15vw;
+  scrollbar-width: none;
+  padding: 5% 0 1% 0;
 }
 
 .med-success-stories::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-
-.med-stories-ctn{
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    border-radius: 1.25vw;
-    width: 63.375vw;
-    background-color: rgba(243, 243, 243, 1);
-    margin-left: auto;
-    margin-right: 5%;
+.med-stories-wrapper {
+  height: 85vh;
+  display: flex;
+  align-content: center;
+  /* background-color: red; */
+  /* margin-right: 50px; */
+  /* padding-right: 150px; */
 }
 
-.stories-img{
-    width: 55%;
+.med-stories-ctn {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  width: 95%;
+  /* background-color: red; */
+  /* background-color: rgba(243, 243, 243, 1); */
+  /* margin-right: 500px; */
 }
 
-.stories-img > img{
-    width: 100%;
-    border-top-left-radius: 1.302vw;
-    border-bottom-left-radius: 1.302vw;
+.stories-img {
+  width: 55%;
+  /* background-color: red; */
 }
 
-.stories-text{
-    width: 40%;
-    padding: 5%;
+.stories-img > img {
+  width: 100%;
+  border-top-left-radius: 1.302vw;
+  border-bottom-left-radius: 1.302vw;
 }
 
-.slide-indicators{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 4rem;
-    margin: 2rem auto;
-    padding-bottom: 3rem;
+.stories-text {
+  width: 40%;
+  padding: 5%;
+  /* background-color: green; */
 }
 
-.slide-indicators > div{
-    width: 20px;
-    height: 20px;
-    background-color: #007CEE;
-    border-radius: 50%;
+.slide-indicators {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 4rem;
+  margin: 2rem auto;
+  padding-bottom: 3rem;
 }
 
-.stories-text > p{
-    font-size: 1.354vw;
-    font-weight: 400;
-    line-height: 1.76vw;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.8); 
-    padding-top: 4%;   
+.slide-indicators > div {
+  width: 20px;
+  height: 20px;
+  background-color: #007cee;
+  border-radius: 50%;
 }
 
-.stories-text > h2{
-    font-size: 1.146vw;
-    font-weight: 500;
-    line-height: 1.49vw;
-    text-align: left;
-    color: rgba(8, 116, 227, 1);
-    padding-top: 5%;
+.stories-text > p {
+  font-size: 1.354vw;
+  font-weight: 400;
+  line-height: 1.76vw;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 4%;
 }
 
-.medplan-innovation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4% 6%;
-    background-color: rgba(255, 255, 255, 1);
-    margin: 1% 0;
+.stories-text > h2 {
+  font-size: 1.146vw;
+  font-weight: 500;
+  line-height: 1.49vw;
+  text-align: left;
+  color: rgba(8, 116, 227, 1);
+  padding-top: 5%;
 }
 
-.med-inv-img > img{
-    width: 36.354vw;
-    height: auto;
+.medplan-innovation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4% 6%;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 1% 0;
 }
 
-.med-inv-text{
-    padding: 2% 5%;
+.med-inv-img > img {
+  width: 36.354vw;
+  height: auto;
 }
 
-.med-inv-text > h2{
-    color: rgba(0, 124, 238, 1);
-    font-size: 1.458vw;
-    font-weight: 600;
-    line-height: 1.875vw;
-    text-align: left;    
+.med-inv-text {
+  padding: 2% 5%;
 }
 
-.med-inv-text > h1{
-    font-size: 2.188vw;
-    font-weight: 600;
-    line-height: 2.613vw;
-    text-align: left;
-    color: rgba(18, 18, 18, 1);    
-    width: 35vw;
-    padding-top: 1rem;
+.med-inv-text > h2 {
+  color: rgba(0, 124, 238, 1);
+  font-size: 1.458vw;
+  font-weight: 600;
+  line-height: 1.875vw;
+  text-align: left;
 }
 
-.med-inv-text > p{
-    color: rgba(0, 0, 0, 1);
-    font-size: 1.146vw;
-    font-weight: 400;
-    line-height: 1.771vw;
-    text-align: left;   
+.med-inv-text > h1 {
+  font-size: 2.188vw;
+  font-weight: 600;
+  line-height: 2.613vw;
+  text-align: left;
+  color: rgba(18, 18, 18, 1);
+  width: 35vw;
+  padding-top: 1rem;
 }
 
-.med-inv-text  button {
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 1.25vw;
-    padding: 0.521vw 1.563vw;
-    color: rgba(67, 68, 62, 1);
-    background-color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-    transition: all ease 0.3s;
-    font-size: 1.042vw;
+.med-inv-text > p {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.146vw;
+  font-weight: 400;
+  line-height: 1.771vw;
+  text-align: left;
 }
 
-.med-inv-text button:hover{
-    background-color: rgba(5, 100, 193, 1);
-    color: white;
-    border: none;
+.med-inv-text button {
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 1.25vw;
+  padding: 0.521vw 1.563vw;
+  color: rgba(67, 68, 62, 1);
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 1.042vw;
 }
 
-.med-rem-ctn2 > h5{
-    color: rgba(53, 151, 242, 1);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 31.2px; 
-    text-align: right;
-    margin-right: 4vw;
-    margin-top: -0.5vh;
+.med-inv-text button:hover {
+  background-color: rgba(5, 100, 193, 1);
+  color: white;
+  border: none;
 }
 
+.med-rem-ctn2 > h5 {
+  color: rgba(53, 151, 242, 1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.2px;
+  text-align: right;
+  margin-right: 4vw;
+  margin-top: -0.5vh;
+}
 
-.med-props-text1 > h3{
-    display: none;
+.med-props-text1 > h3 {
+  display: none;
 }
 
 .med-props-text > h6 {
-    display: none;
+  display: none;
 }
 
-.med-lang-ctn > p{
-    display: none;
+.med-lang-ctn > p {
+  display: none;
 }
 
-.med-tele-ctn > h3{
-    display: none;
+.med-tele-ctn > h3 {
+  display: none;
 }
 
-.med-props-texter > h4{
-    display: none;
+.med-props-texter > h4 {
+  display: none;
 }
 
-.med-dld-ctn3{
-    display: none;
+.med-dld-ctn3 {
+  display: none;
 }
-
-
 
 @media screen and (max-width: 768px) {
-    .medplan-background > img{
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .bground-desktop{
-        display: none;
-    }
-
-    .bground-prt{
-        display: block;
-    }
-
-    .medplan-details{
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .medplan-details > p{
-        width: 100%;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 23.4px;
-        text-align: center;
-    }
-
-    .medplan-details > h1{
-        width: 100%;
-        font-size: 29px;
-        font-weight: 600;
-        line-height: 37.7px;
-        text-align: center;
-    }
-
-    .med-rem-ctn2 > h5{
-        display: none;
-    }
-
-    .medplan-props-container{
-        border-radius: 32px;
-        padding: 10px 25px;
-    }
-    .med-rem-props{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .medplan-container-info > h1{
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 26px;
-        text-align: left;  
-        margin-top: 3rem;      
-    }
-
-    .med-props-text > h6{
-        color: rgba(0, 124, 238, 1);
-        font-size: 16px;
-        font-weight: 500;
-        text-align: left;    
-        display: block;    
-    }
-
-    .med-props-text{
-        width: 100%;
-    }
-
-    .med-rem-ctn > img{
-        width: 100%;
-    }
-
-    .med-props-text >h1{
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 23.4px;
-        text-align: left;
-        color: rgba(18, 18, 18, 1);
-        margin-top: -1.5vh;
-    }
-
-    .med-rem-ctn2 > img{
-        width: 157px;
-        margin: 2rem 25%;
-    }
-
-    .medplan-container-info1 {
-        margin-top: 5vh;
-        margin-bottom: 2vh;
-    }
-
-    .medplan-container-info1 > h1{
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 26px;
-        text-align: left;
-        margin: 0 0 1rem 0;
-    }
-    
-    .med-health-props{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .med-props-text1{
-        width: 100%;
-    }
-
-    .med-props-text1 > h1{
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 23.4px;
-        text-align: left;
-        width: 100%;
-    }
-
-    .med-props-text1 > p{
-        width: 100%;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
-        letter-spacing: -0.16500000655651093px;
-        text-align: left;
-    }
-
-    .med-props-text1 > h3{
-        color: rgba(61, 68, 195, 1);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;     
-        display: block;   
-    }
-
-    .med-props-text1 > h2{
-        display: none;
-    }
-
-    .med-health-img{
-        width: 100%;
-        margin-bottom: -1.5vh;
-    }
-
-    .med-health-container{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .med-health-ctn{
-        width: 84%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-
-    .med-health-ctn > h2{
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 28.6px;
-        text-align: left;
-    }
-
-    .med-health-ctn > p{
-        width: 100%;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        text-align: left;
-    }
-
-    .med-health-ctn > img{
-        width: 90%;
-        margin-bottom: -1.5vh;
-        margin-left: 5%;
-    }
-
-    .med-health-ctn2{
-        width: 84%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-    
-    .med-health-ctn2 > h2{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-        margin: 1rem 0 2rem 0;
-    }
-
-    .med-health-ctn2 > img{
-        width: 85px;
-        margin-top: 1rem;
-    }
-
-    .med-health-ctn2 > p {
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 31.2px;
-        text-align: left;
-        margin-top: 8rem;
-    }
-
-    .medplan-container-info1{
-        margin-bottom: 0;
-    }
-
-    .medplan-container-info2 {
-        margin-bottom: 1vh;
-    }
-
-    .medplan-container-info2 > h1 {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 26px;
-        text-align: left;
-        margin-left: 5%;
-        margin-bottom: -10px;
-        margin-top: 2rem;
-    }
-
-    .med-lang-props{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .med-lang-ctn{
-        width: 84%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-
-    .med-lang-ctn > p{
-        display: block;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 26px;
-        text-align: left;
-        color: rgba(255, 255, 255, 1);       
-    }
-
-    .med-lang-ctn > img{
-        width: 70px;
-        margin-bottom: 1rem;
-    }
-
-    .med-lang-ctn > h1{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 31.2px;
-        text-align: left;
-        margin-bottom: 7rem;
-    }
-
-    .med-lang-ctn1{
-        width: 87%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 20px;
-    }
-
-    .med-lang-ctn1 > h2{
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 26px;
-        text-align: left;
-    }
-
-    .med-lang-ctn1 > p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        text-align: left;
-    }
-
-    .med-lang-ctn1 > img{
-        width: 310px;
-        margin: 0;
-        margin-left: -3%;
-    }
-
-    .med-health-props{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .med-props-text > h4{
-        display: block;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-        color: rgba(98, 42, 255, 1);
-        margin: 2rem 0;
-    }
-
-    .med-props-text > p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        text-align: left;
-        margin: 0 0 2rem 0;
-    }
-
-    .med-props-text > h3{
-        display: none;
-    }
-
-    .medplan-container-info3{
-        margin: 2rem 0 3rem 0;
-    }
-
-    .medplan-container-info3 > h1{
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 26px;
-        text-align: left;
-    }
-
-    .med-props-container{
-        display: flex;
-        flex-direction: column-reverse;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-
-    .med-record-ctn {
-        width: 100%;
-    }
-
-    .med-record-ctn > img{
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .med-record-ctn1 {
-        width: 100%;
-    }
-    
-    .med-record-ctn1 > h2{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;        
-    }
-
-    .med-record-ctn1 > p{
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 23.4px;
-        text-align: left;
-        width: 80%;
-    }
-
-    .med-record-ctn1 > img{
-        width: 80vw;
-        margin: 0;
-    }
-
-    .med-rec2-ctn{
-        width: 84%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-
-    .med-rec2-ctn > h2{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-    }
-    
-    .med-rec2-ctn > p{
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 23.4px;
-        text-align: left;
-    }
-
-    .med-rec2-ctn > img{
-        width: 100%;
-        margin: 0;
-    }
-
-    .med-rec2-ctn2{
-        width: 84%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-
-   
-    .med-rec2-ctn2 > h2{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-    }
-    
-    .med-rec2-ctn2 > p{
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 23.4px;
-        text-align: left;
-        padding: 2rem 0 6rem 0;
-        width: 55vw;
-    }
-
-    .med-rec2-ctn2 > img{
-        width: 70px;
-    }
-
-    .medplan-container-info4{
-        margin: 0;
-    }
-
-    .medplan-container-info4 > h1{
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 26px;
-        text-align: left;
-        margin-left: 5%;
-        margin-top: 3.5rem;
-    }
-
-    .med-props-container1{
-        display: flex;
-        flex-direction: column;
-        border-radius: 32px;
-        padding: 10px 23px;
-    }
-
-    .med-tele-ctn{
-        width: 100%;
-        padding: 0;
-    }
-
-    .med-tele-ctn > h3{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-        color: rgba(0, 212, 54, 1);
-        display: block;
-    }
-
-    .med-tele-ctn > h2{
-        display: none;
-    }
-
-    .med-tele-ctn > h1{
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 31.2px;
-        text-align: left;
-    }
-
-    .med-tele-ctn > p{
-        padding: 0;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        text-align: left;
-        width: 100%;
-        margin: 0 0 1rem 0;
-    }
-
-    .med-tele-ctn2 > img{
-        width: 100%;
-        margin-bottom: -1.5vh;
-    }
-
-    .medplan-download{
-        width: 82%;
-        margin: 1rem auto;
-        border-radius: 32px;
-        padding: 10px 15px;
-        flex-direction: column-reverse;
-    }
-
-    .med-dld-ctn > img{
-        width: 100%;
-        margin-bottom: -1.8vh;
-    }
-
-    .med-dld-ctn2{
-        width: 100%;
-    }
-
-    
-
-    .med-dld-ctn2 > a{
-        display: none;
-    }
-    .med-dld-ctn2 > h2{
-        display: none;
-    }
-
-    .med-dld-ctn3{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .med-dld-ctn3 button{
-        font-size: 11px;
-        font-weight: 600;
-        line-height: 15.6px;
-        text-align: left;
-        padding: 4px 9px;
-        border-radius: 12px;
-        margin-top: 5%;
-    }
-
-    .med-dld-ctn3  h2{
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-        color: rgba(2, 127, 255, 1);
-    }
-
-    .med-dld-ctn2 > p{
-        font-size: 22px;
-        font-weight: 600;
-        line-height: 31.2px;
-        text-align: left;
-    }
-
-    .download-btns img{
-        width: 135px;
-        margin-right: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .medplan-stories{
-        width: 85%;
-        margin: 1em auto;
-        padding: 10px 10px;
-        border-radius: 24px;
-    }
-
-    .medplan-stories > h2{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        margin: 0 auto 0.7rem auto;
-    }
-
-    .medplan-stories > h1{
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 31.2px;
-        text-align: center;
-        width: 100%;
-    }
-
-    .medplan-stories > p{
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 23.4px;
-        text-align: center;
-        width: 100%;
-    }
-
-    .med-success-stories{
-        margin: 0;
-        gap: 20px;
-    }
-
-    .med-stories-ctn{
-        flex-direction: column;
-        width: 100%;
-        border-radius: 24px;
-    }
-
-    .stories-img{
-        width: 100%;
-    }
-
-    .stories-img > img{
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        border-bottom-left-radius: 0px;
-    }
-
-    .stories-text{
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .stories-text > p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        text-align: left;  
-        width: 90%;      
-        margin: 0 auto;
-    }
-
-    .stories-text > h2{
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18.2px;
-        text-align: left;        
-        width: 90%;      
-        margin: 0 auto;
-        padding-bottom: 2rem;
-    }
-
-    .slide-indicators {
-        width: 2rem;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .slide-indicators > div{
-        width: 10px;
-        height: 10px;
-    }
-
-    .medplan-innovation{
-        flex-direction: column-reverse;
-        width: 80%;
-        margin: 1rem auto;
-        padding: 10px 23px;
-        border-radius: 23px;
-    }
-
-    .med-inv-img > img{
-        width: 100%;
-    }
-
-    .med-inv-text{
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-
-    .med-inv-text > h2{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-    }
-
-
-    .med-inv-text > h1{
-        font-size: 21px;
-        font-weight: 500;
-        line-height: 31.2px;
-        text-align: left;
-        width: 100%;
-    }
-
-    .med-inv-text > p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 25.2px;
-        text-align: left;
-    }
-
-    .med-inv-text button{
-        font-size: 11px;
-        font-weight: 600;
-        line-height: 15.6px;
-        text-align: left;
-        padding: 4px 9px;
-        border-radius: 12px;
-        margin: 5% 0;
-
-    }
-
-
-
-    .med-props-texter{
-        width: 100%;
-    }
-
-    .med-props-texter >h1{
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 23.4px;
-        text-align: left;
-        color: rgba(18, 18, 18, 1);
-        margin-top: -1.5vh;
-    }
-
-    .med-props-texter > h4{
-        display: block;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20.8px;
-        text-align: left;
-        color: rgba(98, 42, 255, 1);
-        margin: 2rem 0 0 0;
-    }
-
-    .med-props-texter > p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20.8px;
-        text-align: left;
-        margin: 0 0 2rem 0;
-    }
-
-    .med-props-texter > h3{
-        display: none;
-    }
-    
-    .med-right{
-        margin: 2px 0;
-        padding: 0 0 1rem 0;
-    }
-
-
-
-
-
-    
+  .medplan-background > img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .bground-desktop {
+    display: none;
+  }
+
+  .bground-prt {
+    display: block;
+  }
+
+  .medplan-details {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .medplan-details > p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: center;
+  }
+
+  .medplan-details > h1 {
+    width: 100%;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 37.7px;
+    text-align: center;
+  }
+
+  .med-rem-ctn2 > h5 {
+    display: none;
+  }
+
+  .medplan-props-container {
+    border-radius: 32px;
+    padding: 10px 25px;
+  }
+  .med-rem-props {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .medplan-container-info > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 3rem;
+  }
+
+  .med-props-text > h6 {
+    color: rgba(0, 124, 238, 1);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+  }
+
+  .med-props-text {
+    width: 100%;
+  }
+
+  .med-rem-ctn > img {
+    width: 100%;
+  }
+
+  .med-props-text > h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+    margin-top: -1.5vh;
+  }
+
+  .med-rem-ctn2 > img {
+    width: 157px;
+    margin: 2rem 25%;
+  }
+
+  .medplan-container-info1 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+
+  .medplan-container-info1 > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    margin: 0 0 1rem 0;
+  }
+
+  .med-health-props {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .med-props-text1 {
+    width: 100%;
+  }
+
+  .med-props-text1 > h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .med-props-text1 > p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.16500000655651093px;
+    text-align: left;
+  }
+
+  .med-props-text1 > h3 {
+    color: rgba(61, 68, 195, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    display: block;
+  }
+
+  .med-props-text1 > h2 {
+    display: none;
+  }
+
+  .med-health-img {
+    width: 100%;
+    margin-bottom: -1.5vh;
+  }
+
+  .med-health-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .med-health-ctn {
+    width: 84%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-health-ctn > h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.6px;
+    text-align: left;
+  }
+
+  .med-health-ctn > p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+  }
+
+  .med-health-ctn > img {
+    width: 90%;
+    margin-bottom: -1.5vh;
+    margin-left: 5%;
+  }
+
+  .med-health-ctn2 {
+    width: 84%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-health-ctn2 > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .med-health-ctn2 > img {
+    width: 85px;
+    margin-top: 1rem;
+  }
+
+  .med-health-ctn2 > p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+    margin-top: 8rem;
+  }
+
+  .medplan-container-info1 {
+    margin-bottom: 0;
+  }
+
+  .medplan-container-info2 {
+    margin-bottom: 1vh;
+  }
+
+  .medplan-container-info2 > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: -10px;
+    margin-top: 2rem;
+  }
+
+  .med-lang-props {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .med-lang-ctn {
+    width: 84%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-lang-ctn > p {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .med-lang-ctn > img {
+    width: 70px;
+    margin-bottom: 1rem;
+  }
+
+  .med-lang-ctn > h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+    margin-bottom: 7rem;
+  }
+
+  .med-lang-ctn1 {
+    width: 87%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 20px;
+  }
+
+  .med-lang-ctn1 > h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .med-lang-ctn1 > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+  }
+
+  .med-lang-ctn1 > img {
+    width: 310px;
+    margin: 0;
+    margin-left: -3%;
+  }
+
+  .med-health-props {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .med-props-text > h4 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: rgba(98, 42, 255, 1);
+    margin: 2rem 0;
+  }
+
+  .med-props-text > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    margin: 0 0 2rem 0;
+  }
+
+  .med-props-text > h3 {
+    display: none;
+  }
+
+  .medplan-container-info3 {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .medplan-container-info3 > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .med-props-container {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-record-ctn {
+    width: 100%;
+  }
+
+  .med-record-ctn > img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .med-record-ctn1 {
+    width: 100%;
+  }
+
+  .med-record-ctn1 > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+  }
+
+  .med-record-ctn1 > p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    width: 80%;
+  }
+
+  .med-record-ctn1 > img {
+    width: 80vw;
+    margin: 0;
+  }
+
+  .med-rec2-ctn {
+    width: 84%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-rec2-ctn > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+  }
+
+  .med-rec2-ctn > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+
+  .med-rec2-ctn > img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .med-rec2-ctn2 {
+    width: 84%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-rec2-ctn2 > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+  }
+
+  .med-rec2-ctn2 > p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    padding: 2rem 0 6rem 0;
+    width: 55vw;
+  }
+
+  .med-rec2-ctn2 > img {
+    width: 70px;
+  }
+
+  .medplan-container-info4 {
+    margin: 0;
+  }
+
+  .medplan-container-info4 > h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3.5rem;
+  }
+
+  .med-props-container1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    padding: 10px 23px;
+  }
+
+  .med-tele-ctn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .med-tele-ctn > h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: rgba(0, 212, 54, 1);
+    display: block;
+  }
+
+  .med-tele-ctn > h2 {
+    display: none;
+  }
+
+  .med-tele-ctn > h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+  }
+
+  .med-tele-ctn > p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .med-tele-ctn2 > img {
+    width: 100%;
+    margin-bottom: -1.5vh;
+  }
+
+  .medplan-download {
+    width: 82%;
+    margin: 1rem auto;
+    border-radius: 32px;
+    padding: 10px 15px;
+    flex-direction: column-reverse;
+  }
+
+  .med-dld-ctn > img {
+    width: 100%;
+    margin-bottom: -1.8vh;
+  }
+
+  .med-dld-ctn2 {
+    width: 100%;
+  }
+
+  .med-dld-ctn2 > a {
+    display: none;
+  }
+  .med-dld-ctn2 > h2 {
+    display: none;
+  }
+
+  .med-dld-ctn3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .med-dld-ctn3 button {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15.6px;
+    text-align: left;
+    padding: 4px 9px;
+    border-radius: 12px;
+    margin-top: 5%;
+  }
+
+  .med-dld-ctn3 h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: rgba(2, 127, 255, 1);
+  }
+
+  .med-dld-ctn2 > p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+  }
+
+  .download-btns img {
+    width: 135px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .medplan-stories {
+    width: 85%;
+    margin: 1em auto;
+    padding: 10px 10px;
+    border-radius: 24px;
+  }
+
+  .medplan-stories > h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    margin: 0 auto 0.7rem auto;
+  }
+
+  .medplan-stories > h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .medplan-stories > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .med-success-stories {
+    margin: 0;
+    gap: 20px;
+  }
+
+  .med-stories-wrapper {
+    height: 70vh;
+    display: flex;
+    align-content: center;
+    /* margin-bottom: 20px; */
+  }
+
+  .med-stories-ctn {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .stories-img {
+    width: 100%;
+  }
+
+  .stories-img > img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .stories-text {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .stories-text > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .stories-text > h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .slide-indicators {
+    width: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .slide-indicators > div {
+    width: 10px;
+    height: 10px;
+  }
+
+  .medplan-innovation {
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 10px 23px;
+    border-radius: 23px;
+  }
+
+  .med-inv-img > img {
+    width: 100%;
+  }
+
+  .med-inv-text {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .med-inv-text > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+  }
+
+  .med-inv-text > h1 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .med-inv-text > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+  }
+
+  .med-inv-text button {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15.6px;
+    text-align: left;
+    padding: 4px 9px;
+    border-radius: 12px;
+    margin: 5% 0;
+  }
+
+  .med-props-texter {
+    width: 100%;
+  }
+
+  .med-props-texter > h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+    margin-top: -1.5vh;
+  }
+
+  .med-props-texter > h4 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: rgba(98, 42, 255, 1);
+    margin: 2rem 0 0 0;
+  }
+
+  .med-props-texter > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    margin: 0 0 2rem 0;
+  }
+
+  .med-props-texter > h3 {
+    display: none;
+  }
+
+  .med-right {
+    margin: 2px 0;
+    padding: 0 0 1rem 0;
+  }
 }
